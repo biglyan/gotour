@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golang.org/x/tour/wc"
+	// "golang.org/x/tour/wc"
+	"github.com/golang/tour/wc"
 	"strings"
 )
 
