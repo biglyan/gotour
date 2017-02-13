@@ -18,7 +18,9 @@ func main() {
 
 	// 解码可能会返回错误，如果不确定输入信息格式是否正确，
 	// 那么，你就需要进行错误检查了。
-	sDec, _ := b64.StdEncoding.DecodeString(sEnc)
+	sDec, _ := b64.StdEncoding.Deco
+
+	deString(sEnc)
 	fmt.Println(string(sDec))
 	fmt.Println()
 
