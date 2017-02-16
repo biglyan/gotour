@@ -13,7 +13,7 @@ func main() {
 	now := time.Now()
 	secs := now.Unix()
 	nanos := now.UnixNano()
-	fmt.Println(now)
+	fmt.Println("now: " + now.String())
 
 	// 注意 `UnixMillis` 是不存在的，所以要得到毫秒数的话，
 	// 你要自己手动的从纳秒转化一下。
